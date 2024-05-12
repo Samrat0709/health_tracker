@@ -7,7 +7,7 @@
     <?php include "./components/navbar.php" ?>
 
     <div class="container-fluid p-4 mt-4 bmi-bg position-relative">
-        <h1 class="fw-bold text-uppercase text-center text-custom">Ideal Body Weight Calculator</h1>
+        <h1 class="fw-bold text-uppercase text-center text-custom">Ideal Body Weight <span class="text-white"> Calculator</span></h1>
         <img src="./assets/ideal-cal.svg" class="w-100 img-fluid" alt="">
         <div class="cal-box my-4 col-lg-12">
 
@@ -33,7 +33,7 @@
 
                     <div class="bg-transparent d-flex flex-column gap-2 col-lg-6 mt-2">
                         <label for="hw" class="form-label fs-6 text-white fw-bolder text-custom">Height (CM):</label>
-                        <input id="hw" class="form-control">
+                        <input id="hw" class="form-control" placeholder="Enter Your Height ...">
                     </div>
                 </div>
             </div>

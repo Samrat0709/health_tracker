@@ -7,7 +7,7 @@
     <?php include "./components/navbar.php" ?>
 
     <div class="container-fluid p-4 mt-4 bmi-bg position-relative">
-        <h1 class="fw-bold text-uppercase text-center text-custom">Water Intake</h1>
+        <h1 class="fw-bold text-uppercase text-center text-custom">Water <span></span> Intake</h1>
         <img src="./assets/water-cal.svg" class="w-100 img-fluid" alt="">
         <div class="cal-box my-4 col-lg-12">
 

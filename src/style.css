@@ -16,11 +16,11 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #000;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -124,11 +124,7 @@ body {
 .response-box{
     height: 100%;
 }
-@media (min-width: 576px) {
-    .response-box{
-        height: 40vh;
-    }
-}
+
 #seeMoreBtn{
     display: none !important;
 }
