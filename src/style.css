@@ -123,8 +123,11 @@ body {
 }
 .response-box{
     height: 100%;
-    
-    background: linear-gradient();
+}
+@media (min-width: 576px) {
+    .response-box{
+        height: 40vh;
+    }
 }
 #seeMoreBtn{
     display: none !important;
@@ -167,6 +170,26 @@ body {
  .calculator-box:hover .calculator-layer {
     transform: translateY(0);
   }
+
+
+
+  /* .bmi-bg{
+    background-image: url('../assets/BMI.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+  } */
+
+  .footer-list{
+    list-style: none;
+  }
+.footer-bg{
+    background: url('../assets/footer.svg');
+    background-position: center;
+    background-size: cover;
+}
+
   
   
   

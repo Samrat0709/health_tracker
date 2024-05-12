@@ -93,84 +93,71 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="calculator">
         <h1 class="fw-bold text-uppercase text-center text-custom">AWESOME <span>CALCULATOR</span> </h1>
         <div class="row d-flex justify-content-center gap-4 m-4">
 
             <div class="calculator-box card  col-lg-3">
-                <img src="./assets/B.svg" class="" height="300px" alt="">
+                <img src="./assets/bmi_img.svg" class="" height="300px" alt="">
                 <div class="calculator-layer">
-                    <h4 class="text-custom text-dark fw-bold fs-3">Social Media Management</h4>
-                    <a href="#" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
+                    <h4 class="text-custom text-dark fw-bold fs-3">BMI Calculator</h4>
+                    <a href="bmi.php" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
 
                 </div>
             </div>
 
             <div class="calculator-box card  col-lg-3">
-                <img src="./assets/B.svg" class="" height="300px" alt="">
+                <img src="./assets/sleep.svg" class="" height="300px" alt="">
                 <div class="calculator-layer">
-                    <h4 class="text-custom text-dark fw-bold fs-3">Social Media Management</h4>
-                    <a href="#" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
+                    <h4 class="text-custom text-dark fw-bold fs-3">Sleep Tracker</h4>
+                    <a href="sleep.php" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
 
                 </div>
             </div>
 
             <div class="calculator-box card  col-lg-3">
+                <img src="./assets/weight.svg" class="" height="300px" alt="">
+                <div class="calculator-layer">
+                    <h4 class="text-custom text-dark fw-bold fs-3">Calorie Intake</h4>
+                    <a href="calorie.php" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
+
+                </div>
+            </div>
+
+            <!-- <div class="calculator-box card  col-lg-3">
                 <img src="./assets/B.svg" class="" height="300px" alt="">
                 <div class="calculator-layer">
-                    <h4 class="text-custom text-dark fw-bold fs-3">Social Media Management</h4>
-                    <a href="#" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
+                    <h4 class="text-custom text-dark fw-bold fs-3">Calculate Heart Rate</h4>
+                    <a href="heartrate.php" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
+
+                </div>
+            </div> -->
+
+            <div class="calculator-box card  col-lg-3">
+                <img src="./assets/water_intake.svg" class="" height="300px" alt="">
+                <div class="calculator-layer">
+                    <h4 class="text-custom text-dark fw-bold fs-3">Water Intake</h4>
+                    <a href="water.php" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
 
                 </div>
             </div>
 
             <div class="calculator-box card  col-lg-3">
-                <img src="./assets/B.svg" class="" height="300px" alt="">
+                <img src="./assets/idealweight.svg" class="" height="300px" alt="">
                 <div class="calculator-layer">
-                    <h4 class="text-custom text-dark fw-bold fs-3">Social Media Management</h4>
-                    <a href="#" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
+                    <h4 class="text-custom text-dark fw-bold fs-3">Ideal Weight</h4>
+                    <a href="weight.php" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
 
                 </div>
             </div>
 
-            <div class="calculator-box card  col-lg-3">
-                <img src="./assets/B.svg" class="" height="300px" alt="">
-                <div class="calculator-layer">
-                    <h4 class="text-custom text-dark fw-bold fs-3">Social Media Management</h4>
-                    <a href="#" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
-
-                </div>
-            </div>
-
-            <div class="calculator-box card  col-lg-3">
-                <img src="./assets/B.svg" class="" height="300px" alt="">
-                <div class="calculator-layer">
-                    <h4 class="text-custom text-dark fw-bold fs-3">Social Media Management</h4>
-                    <a href="#" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
-
-                </div>
-            </div>
-
-            <div class="calculator-box card  col-lg-3">
-                <img src="./assets/B.svg" class="" height="300px" alt="">
-                <div class="calculator-layer">
-                    <h4 class="text-custom text-dark fw-bold fs-3">Social Media Management</h4>
-                    <a href="#" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
-
-                </div>
-            </div>
-
-            <div class="calculator-box card  col-lg-3">
-                <img src="./assets/B.svg" class="" height="300px" alt="">
-                <div class="calculator-layer">
-                    <h4 class="text-custom text-dark fw-bold fs-3">Social Media Management</h4>
-                    <a href="#" class="text-dark rounded-circle bg-white p-4"><i class="fa-solid fa-share-from-square fs-4 "></i></a>
-
-                </div>
-            </div>
+           
 
         </div>
     </div>
+
+
+    <?php include './components/footer.php' ?>
 
 
 
