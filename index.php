@@ -93,8 +93,8 @@
         </div>
     </div>
 
-    <div class="container-fluid" id="calculator">
-        <h1 class="fw-bold text-uppercase text-center text-custom">AWESOME <span>CALCULATOR</span> </h1>
+    <div class="container-fluid p-4 my-4" id="calculator">
+        <h1 class="fw-bold text-uppercase text-center text-custom">FITNESS <span>CALCULATOR</span> </h1>
         <div class="row d-flex justify-content-center gap-4 m-4">
 
             <div class="calculator-box card  col-lg-3">
