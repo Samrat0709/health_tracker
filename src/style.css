@@ -1,18 +1,20 @@
-:root{
-    --primary-color : #AFDC71;
-    --white-color : #FFF;
+:root {
+    --primary-color: #AFDC71;
+    --white-color: #FFF;
 }
-/* body{
-    background: url('../assets/backdrop.png');
+
+body {
+    background: url('../assets/Home.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-} */
+}
 
-::selection{
+::selection {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -25,6 +27,7 @@
     background: var(--primary-color);
     border-radius: 4px;
 }
+
 .nav-link::after {
     content: '';
     display: block;
@@ -42,10 +45,133 @@
 
 .nav-item>.active {
     color: var(--white-color) !important;
-    
+
 }
 
-.text-custom{
-    font-family: "Poppins",sans-serif;
+.text-custom {
+    font-family: "Poppins", sans-serif;
     color: #AFDC71 !important;
 }
+
+.img-custom {
+    width: 80%;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    /* Light grey */
+    border-top: 4px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    display: none;
+    /* Initially hidden */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.doc-card {
+    background-image: url('../assets/DOC.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+
+    background: rgba(255, 255, 255, 0.2);
+    /* Transparent background */
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    /* Box shadow */
+    transition: all 0.3s ease;
+    /* Smooth transition */
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    /* Move the card up slightly on hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    /* Increase shadow on hover */
+}
+.chat-box{
+    position: relative;
+    height: 100%;
+    background: url('../assets/response.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.input-box{
+    background-color: #11391CC7;
+}
+.response-box{
+    height: 100%;
+    
+    background: linear-gradient();
+}
+#seeMoreBtn{
+    display: none !important;
+}
+
+.calculator-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .calculator-box img {
+    width: 100%;
+    transition: .5s ease;
+    object-fit: cover;
+  }
+  
+  .calculator-box:hover img {
+    transform: scale(1.1);
+  }
+  .calculator-box .calculator-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--primary-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+  }
+  
+ .calculator-box:hover .calculator-layer {
+    transform: translateY(0);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
