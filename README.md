@@ -13,6 +13,9 @@ Health Tracker is a [brief description of your health tracker application]. It p
 - **Visualize Data**: View your health data in easy-to-understand charts and graphs.
 - **Reminder System**: Receive notifications and reminders to help you stay on track with your health goals.
 - **Customization**: Personalize your experience by customizing your health goals and preferences.
+## Design
+
+Check out the design of WellnessTracker on Figma: [WellnessTracker Design](https://www.figma.com/file/your-figma-file-url)
 
 ## Installation
 
