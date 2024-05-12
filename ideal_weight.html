@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css_files/footer.css">
+    <link rel="stylesheet" href="../css_files/ideal_weight.css">
+    <link rel="stylesheet" href="../css_files/home.css">
+    <link rel="stylesheet" href="../css_files/navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-ezlrJyRBD9N5ZXUUqNl8XqVAjjc6b3lc1ce6Rrp+9/gs6gKDT3Vl+kD5tr5D2Gff" crossorigin="anonymous">
+    <title>Ideal Weight Calculator</title>
+</head>
+<body>
+   <!-- navbar start -->
+   <div class="nav-container">
+    <nav class="newNav">
+        <a href="../index.html" class="nav__logo" data-aos="fade-right">Wellness Wave<span>.</span></a>
+        
+        <ul class="navLinks">
+            <li class="link" data-aos="fade-down"><a href="../index.html">Home</a></li>
+            <li class="link" data-aos="fade-down"><a href="./fitnesstracking.html">Tracking</a></li>
+            <li class="link" data-aos="fade-down"><a href="./wellness.html">Wellness</a></li>
+            <li class="link" data-aos="fade-down"><a href="../enroll/index.html">Enroll Now</a></li>
+            <li class="link" data-aos="fade-down"><a href="./feedback.html">Rate Us</a></li>
+            <li class="link" data-aos="fade-down"><a href="./faq.html">FAQ</a></li>
+            <li class="link" data-aos="fade-down"><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <!-- <div class="hamburger" data-aos="fade-down">
+          <div class="hamburger-menu">
+            <div class="hamburger-icon"onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="./index.html"onclick="toggleMenu()">Home</a></li>
+                <li><a href="./html_files/fitnesstracking.html"onclick="toggleMenu()">Tracking</a></li>
+                <li><a href="./html_files/wellness.html"onclick="toggleMenu()">Wellness</a></li>
+                <li><a href="./enroll/index.html"onclick="toggleMenu()">Enroll Now!</a></li>
+                <li><a href="./html_files/feedback.html" onclick="toggleMenu()">Rate Us</a></li>
+                <li><a href="./html_files/faq.html" onclick="toggleMenu()">FAQ</a></li>
+            </div>
+        </div> -->
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+    </nav>
+</div>
+<!-- navbar ends -->
+    <div id=outer>
+        <div class="calci_title">Ideal Body Weight Calculator</div>
+        <div id=cover><form name=iw>
+            <table class=main>
+                <col class=w60 style="text-align: center;">
+                <col class=w40 style="text-align: center;">
+                <tr >
+                    <td>Measuring System<td>
+                        <select id=msw onchange=msystem();  style="font-size: medium;"><option value=metric>Metric (Kgs, Cms)<option value=us>US (lbs, inches)</select>
+                            <tr>
+                                <td>Sex<td>
+                                    <select id=sw style="font-size: medium;"><option value=m>Male<option value=f>Female</select>
+                                
+                                        <tr>
+                                            <td>Height (Cms)</td>
+                                                <td><input id=hw style="font-size:large ;"><tr><td><button type=reset style="size: 50px;height: 50px;width: 80px;">Reset</button>
+                                                    <td><button type=button onclick='bweight();'style="size: 50px;height: 50px;width: 80px;">Submit</button>
+                                                        <tr><td>As per D R Miller Formula<td><input id=ibw class=op style="font-size: large;"><tr><td>As per WHO recommendations<td><input id=ibw1 class=op style="font-size: large;""><tr><td colspan=2 class='ac b' >This Calculator is suitable only for Adults over 18 years of age.
+                                                        </table>
+                                                    </form>
+                                                </div>
+                                            </div>
+<script src="../javascript/ideal_weight.js"></script>
+<script src="https://kit.fontawesome.com/9e5d1ce9c2.js" crossorigin="anonymous"></script>
+<footer>
+    <div class="foot-up">
+      <!-- Part 1: Website Name and Slogan -->
+      <div class="footer-part">
+        <h2 style="padding-left: 80px;">Wellness Wave<span style="color: red;">.</span></h2>
+        <div class="slogan">
+          <pre>
+       "Sweat Today,Shine Tomorrow.
+  Embrace the Burn, Sculpt the Strength.
+  Your Journey, Your Body, Your Triumph. 
+  Elevate your Fitness,Elevate your Life."
+          </pre>
+        </div>
+      </div>
+  
+      <!-- Part 2: Links -->
+      <div class="footer-part">
+        <h2>Quick Links</h2>
+        <div class="footer-links">
+          <a href="#">Tracking</a>
+          <a href="#">Enroll Now</a>
+          <a href="#">Rate Us</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+  
+      <!-- Part 3: Social Media Links -->
+      <div class="footer-part">
+        <h2>Connect with Us</h2>
+        <div class="footer-social">
+          <!-- Replace the FontAwesome icons with your actual social media icons -->
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      </div>
+      <hr>
+      <!-- Copyright -->
+      <div class="copyright">
+        Copyright © 2024 fisica . All rights reserved.
+      </div>
+  
+  </footer>
+  <script src="../javascript/hambg.js"></script>
+</body>
+</html>
