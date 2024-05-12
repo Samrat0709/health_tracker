@@ -1,0 +1,51 @@
+:root{
+    --primary-color : #AFDC71;
+    --white-color : #FFF;
+}
+/* body{
+    background: url('../assets/backdrop.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+::selection{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 4px;
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    width: 0%;
+    height: 3px;
+    background-color: var(--primary-color) !important;
+    transition: all 0.3s;
+}
+
+.nav-item:hover .nav-link::after {
+    width: 100%;
+}
+
+.nav-item>.active {
+    color: var(--white-color) !important;
+    
+}
+
+.text-custom{
+    font-family: "Poppins",sans-serif;
+    color: #AFDC71 !important;
+}
